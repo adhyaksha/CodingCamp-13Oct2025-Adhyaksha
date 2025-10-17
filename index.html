@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-list = Adhyaksha</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- bagian header -->
+     <header>
+        <h1>To-Do list</h1>
+     </header>
+
+
+     <!-- main atau content -->
+      <main>
+
+        <!-- section pertama -->
+        <section class="konten1">
+            <input class="input1" type="text" id="todo-input" placeholder="masukan catatan">
+            <input class="input2" type="date" id="todo-date" placeholder="masukan tanggal">
+            <button class="buatId" id="buat-add">add</button>
+        </section>
+        
+        <!-- section kedua -->
+        <section class="konten2">
+
+            <button id="filter">filter</button>
+            <button id="Delate">Delate All list</button>
+
+        </section>
+
+        <!-- section ketiga -->
+        <section class="konten3">
+            <h1>isi list nya</h1>
+            <ul id="tasks-list">
+                <li>gak ada list apapun</li>
+            </ul>
+        </section>
+      </main>
+
+      <!-- footer -->
+       <footer>
+        <p>@2025 Adhyaksha To-DO list</p>
+       </footer>
+
+       <!-- link nyambungin js -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
+.konten1{
+    margin-bottom: 20px;
+}
+
+.input1{
+    height: 30px;
+    
+}
+
+.input2{
+    height: 30px;
+}
+
+.buatId{
+    height: 30px;
+} */
+
+header{
+    margin-top: 35vh;
+}
+
+/* Biar header dan form-nya sejajar */
+header, .konten1, .konten2, .konten3, footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* jarak antar elemen */
+}
+
+/* Supaya tulisan "To-Do list" di tengah antara input */
+header h1 {
+  order: 2; /* Biar bisa ditaruh di tengah di antara input nanti */
+  margin: 0 15px;
+  font-size: 24px;
+}
+
+/* Optional styling biar rapi */
+.input1, .input2, .buatId {
+  padding: 5px 10px;
+  font-size: 14px;
+}
