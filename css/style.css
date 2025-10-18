@@ -54,6 +54,12 @@ header{
     width: 70px;
 }
 
+footer p {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 /* Biar header dan form-nya sejajar */
 header, .konten1, .konten2, .konten3, footer {
   display: flex;
