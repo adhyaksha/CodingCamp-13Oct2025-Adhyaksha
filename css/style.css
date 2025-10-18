@@ -3,30 +3,6 @@
     margin: 0;
 }
 
-/* header{
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: center;
-}
-
-
-.konten1{
-    margin-bottom: 20px;
-}
-
-.input1{
-    height: 30px;
-    
-}
-
-.input2{
-    height: 30px;
-}
-
-.buatId{
-    height: 30px;
-} */
-
 body{
     background-color: blue;
     display: flex;
